@@ -71,10 +71,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top: 130px;
+}
 
 /* about section    */
 .about{
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -83,7 +85,7 @@ main{
 .section-title{
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-align: center;
 
 }
@@ -108,9 +110,7 @@ main{
 }
 
 /* my skills style */
-.my-skills{
-    margin-top: 130px;
-}
+
 .skills-container{
     display: flex;
     gap: 24px;
@@ -130,3 +130,6 @@ main{
 .skill-description{
     color: #757575;
 }
+
+/* Resume Styles */
+
