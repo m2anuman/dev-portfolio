@@ -84,6 +84,7 @@ main{
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
+    text-align: center;
 
 }
 .section-description{
@@ -104,4 +105,28 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+/* my skills style */
+.my-skills{
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #ffffff;
+    box-shadow: 0PX 6PX 50PX rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
 }
